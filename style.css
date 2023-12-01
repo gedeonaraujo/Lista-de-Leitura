@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", "Roboto", sans-serif;
-  background-color: #ad2121;
+  background-color: #f3f3f3;
 }
 
 .main,
@@ -13,8 +13,8 @@ h1 {
 }
 
 h1 {
-  color: #333;
-  background-color: #b7a7a7;
+  color: #f4f4f4;
+  background-color: #1e1f26;
   font-weight: 600;
   padding: 20px 0px 20px 0px;
   top: 0;
@@ -50,10 +50,10 @@ img {
 }
 
 footer {
-  background-color: #b7a7a7;
+  background-color: #1e1f26;
   padding: 20px;
   text-align: center;
-  color: #fff; /* Cor do texto no rodapé */
+  color: #f4f4f4; /* Cor do texto no rodapé */
 }
 
 /* Adiciona um estilo para links no rodapé */
@@ -65,7 +65,7 @@ footer a {
 
 @media only screen and (max-width: 600px) {
   body {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   h1 {
@@ -75,12 +75,6 @@ footer a {
   p {
     margin-left: 5%;
     margin-right: 5%;
-  }
-  @media only screen and (max-width: 600px) {
-    img {
-      margin-left: 5%;
-      margin-right: 5%;
-    }
   }
 
   /* Media Query para telas entre 601 pixels e 1200 pixels */
